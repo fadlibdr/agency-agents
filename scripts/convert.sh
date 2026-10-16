@@ -79,6 +79,7 @@ TODAY="$(date +%Y-%m-%d)"
 AGENT_DIRS=(
   academic design engineering finance game-development gis healthcare marketing paid-media product project-management
   research sales security spatial-computing specialized support testing
+  pii-direksi pii-komersial pii-engineering pii-proyek pii-keuangan-pajak pii-legal-kontrak pii-pengadaan pii-produk-erp
 )
 
 # --- Usage ---

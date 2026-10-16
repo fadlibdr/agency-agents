@@ -16,6 +16,42 @@
 
 ---
 
+## 🇮🇩 PII Corporate Roster (this fork)
+
+This fork adds a company-specific layer for **PT Pelita Inovasi Internusa (PII)** — a Jakarta
+electronic-security and network systems contractor (CCTV, access control, fire alarm, PA/VA,
+structured cabling) that also productizes its own ERP (**KARYA / nusantara-erp**). Eight
+`pii-*` divisions run the company end-to-end, from tender to BAST to retensi, with Indonesian
+regulatory conventions (PPh Final jasa konstruksi, PPN/DPP nilai lain, WAPU, Coretax, termin,
+retensi) baked into every agent. Prompts are in English; deliverables are formal Bahasa Indonesia.
+
+| Division | Agents |
+|---|---|
+| `pii-direksi` | Chief of Staff (orchestrator/router), Decision Brief Analyst |
+| `pii-komersial` | Tender Scout, Penawaran Writer, Proposal Teknis Writer, RAB Estimator, Presales Engineer |
+| `pii-engineering` | Systems Designer, Network Designer, Design Doc Controller, BOQ Reviewer, Commissioning Engineer |
+| `pii-proyek` | Project Manager, Site Supervisor, QA & Handover Lead, Maintenance Planner |
+| `pii-keuangan-pajak` | AR & Termin Controller, Pajak Specialist, Project Cost Controller, Bookkeeper |
+| `pii-legal-kontrak` | Kontrak Drafter, Dispute Correspondent, Compliance & Vendor Registration |
+| `pii-pengadaan` | Supplier Sourcer, Purchase Order Officer, Inventory & Logistics |
+| `pii-produk-erp` | ERP Backend Engineer, ERP Frontend Engineer, ERP QA Engineer, ERP Release Engineer |
+
+Shared company context and authoring rules live in [`pii/BRIEF.md`](pii/BRIEF.md). Start any
+multi-division task with **PII Chief of Staff** — it holds the routing table and hand-off order.
+
+```bash
+# Hermes (lazy router plugin, recommended)
+./scripts/convert.sh --tool hermes && ./scripts/install.sh --tool hermes
+# then in Hermes: "Use the agency-agents-router plugin; search division pii-direksi and load PII Chief of Staff"
+
+# Claude Code — only the PII divisions
+./scripts/install.sh --tool claude-code --division pii-direksi,pii-komersial,pii-engineering,pii-proyek,pii-keuangan-pajak,pii-legal-kontrak,pii-pengadaan,pii-produk-erp
+```
+
+The upstream generic roster is kept intact below as a reference library.
+
+---
+
 ## 🚀 What Is This?
 
 Born from a Reddit thread and months of iteration, **The Agency** is a growing collection of meticulously crafted AI agent personalities. Each agent is:

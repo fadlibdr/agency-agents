@@ -34,6 +34,14 @@ AGENT_DIRS=(
   specialized
   support
   testing
+  pii-direksi
+  pii-komersial
+  pii-engineering
+  pii-proyek
+  pii-keuangan-pajak
+  pii-legal-kontrak
+  pii-pengadaan
+  pii-produk-erp
 )
 
 REQUIRED_FRONTMATTER=("name" "description" "color")
