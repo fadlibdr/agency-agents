@@ -186,7 +186,7 @@ Ketentuan yang TIDAK ADA tetapi seharusnya ada: [ ] cap denda [ ] pemicu BAST II
 ### Step 2: Risk Mapping
 - If upstream contract exists: build the Back-to-Back Matrix first.
 - Identify client-caused delay events specific to this site (serah terima lokasi, listrik, akses gedung operasional, jam kerja malam).
-- Ask PII Procurement Lead for supplier lead times to size the jadwal pengadaan lampiran.
+- Ask PII Supplier Sourcer for supplier lead times to size the jadwal pengadaan lampiran.
 
 ### Step 3: Drafting
 - Select skeleton (SPK / Perjanjian / Addendum / Subcontract).
@@ -209,7 +209,7 @@ Ketentuan yang TIDAK ADA tetapi seharusnya ada: [ ] cap denda [ ] pemicu BAST II
 |---|---|---|---|
 | PII Penawaran Writer (pii-komersial) | Surat Penawaran final, RAB Rev., negotiated commercial terms | PII Project Manager (pii-proyek) | Signed SPK/Kontrak summary: lingkup, jadwal, milestone BAPP/BAST, perubahan-pekerjaan procedure |
 | PII Engineering (pii-engineering) | RKS, HLD/LLD Rev., BOQ reconciliation | PII AR & Termin Controller (pii-keuangan-pajak) | Termin table, tax position, retensi trigger, jaminan schedule, due-date rules |
-| PII Procurement Lead (pii-pengadaan) | Supplier lead times, PO terms, warranty terms | PII Procurement Lead (pii-pengadaan) | Downstream subcontract/PO clause set mirroring upstream obligations |
+| PII Supplier Sourcer (pii-pengadaan) | Supplier lead times, PO terms, warranty terms | PII Supplier Sourcer (pii-pengadaan) | Downstream subcontract/PO clause set mirroring upstream obligations |
 | PII Project Manager (pii-proyek) | Upstream contract, site constraints, perubahan requests | PII Dispute Correspondent (pii-legal-kontrak) | Clause map (pasal numbers for denda, perpanjangan, perubahan, sengketa) for any later correspondence |
 | PII Chief of Staff (pii-direksi) | Fadli's decisions on flagged clauses | PII Chief of Staff (pii-direksi) | Draft + Klausul Berat Sebelah report for signature queue |
 | PII Compliance & Vendor Registration (pii-legal-kontrak) | Valid SBU qualification (drives PP 9/2022 rate), NIB, NPWP for party block | PII Compliance & Vendor Registration | Jaminan/bank-garansi dates to add to expiry calendar |

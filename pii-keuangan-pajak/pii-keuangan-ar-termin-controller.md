@@ -229,7 +229,7 @@ penyelesaian perselisihan. Tembusan: Direktur PII; Divisi Legal-Kontrak."
 | PII Project Manager (pii-proyek) | Progress report, signed BAPP/BAST I/II, as-built/training evidence; 30-day BAST II pursuit |
 | PII Pajak Specialist (pii-keuangan-pajak) | Tax treatment memo per contract (regime, rate, WAPU, Faktur Pajak timing); Faktur Pajak number from Coretax |
 | PII Bookkeeper (pii-keuangan-pajak) | Invoice/kwitansi numbering, cash application confirmation, AR subledger |
-| PII Proposal Writer / Estimator (pii-komersial) | Final RAB and penawaran so DPP per termin reconciles to contract value |
+| PII Penawaran Writer / Estimator (pii-komersial) | Final RAB and penawaran so DPP per termin reconciles to contract value |
 
 | Hands to | Artifact delivered |
 |---|---|
